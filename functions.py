@@ -221,6 +221,7 @@ def convert_to_int(value):
 
     except ValueError as e:
         print(f"Ошибка конвертации: {e}")
+        return value
 
 
 # Шаг 8.3
